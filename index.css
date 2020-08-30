@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1450px){
+    #about-my-team{
+        display: flex;
+        position: relative;
+        width:  80%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 40px;
+    }
+    #about-my-team h1{
+        display: block;
+        position: relative;
+        width: 50%;
+        font-size: 45px;
+    }
+    #about-my-team span{
+        display: block;
+        position: relative;
+        width: 50%;
+    }
+    #about-my-team span h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    #about-my-team span p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #team-members{
+        width: 90%;
+        height: 600px;
+        position: relative;
+        display: flex;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        
+    }
+    .team-member{
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 0 15px #27272718;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+        margin: 10px;
+        transition: 0.5s;
+    }
+    .team-member:hover{
+        box-shadow: 0 0 15px #27272767;
+    }
+    .team-member .profile-picture{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .team-member p{
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px 0;
+    }
+    .member-name{
+        font-size: 20px;
+        color: #1d1d1d;
+        font-weight: 600;
+    }
+    .member-job{
+        color: #00b2f8;
+    }
+}
