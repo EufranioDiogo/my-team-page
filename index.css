@@ -89,3 +89,18 @@
         color: #00b2f8;
     }
 }
+@media only screen and (max-width: 514px){
+    #about-my-team{
+        flex-wrap: wrap;
+    }
+    #about-my-team h1{
+        width: 100%;
+    }
+    #about-my-team span{
+        margin-top: 50px;
+        width: 100%;
+    }
+    #team-members{
+        height: auto;
+    }
+}
