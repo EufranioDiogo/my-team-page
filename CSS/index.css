@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #0f0f0f;
+}
+#about-my-team {
+    display: flex;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+
+#about-my-team .heading-1 {
+    display: block;
+    position: relative;
+    width: 50%;
+    font-size: 45px;
+    color: #fff;
+}
+
+#about-my-team .about-my-team--span {
+    display: block;
+    position: relative;
+    width: 50%;
+    color: #fff;
+}
+
+#about-my-team .about-my-team--span h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+#about-my-team .about-my-team--span p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#team-members {
+    width: 90%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.team-member {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #0f0f0f;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    transition: 0.5s;
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.team-member:hover {
+    transform: translateY(-1%);
+    border: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.team-member .profile-picture {
+    width: 50%;
+    position: relative;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+.team-member-info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    color: #fff;
+}
+.team-member .info-text {
+    display: block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+.member-name {
+    font-size: 20px;
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+.member-job {
+    color: #f8003e;
+    font-size: 1.4rem;
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h3 {
+    padding: 20px 0;
+    color: #3d3d3d;
+}
+
+@media only screen and (max-width: 765px) {
+    #about-my-team {
+        flex-direction: column;
+    }
+    #about-my-team .heading-1 {
+        width: 100%;
+    }
+    #about-my-team .about-my-team--span {
+        margin-top: 50px;
+        width: 100%;
+    }
+    #team-members {
+        height: auto;
+    }
+}
