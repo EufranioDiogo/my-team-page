@@ -10,7 +10,7 @@
 - **Nome Projecto**: My Team Page
 - **Data / Período de Criação**: Período do ínicio da pandemia.
 - **Motivo**: Necessidade de Melhorar minhas habilidades quanto front-end developer.
-- **Objectivo**: Melhorar as minhas habilidades quanto front-end;
+- **Objectivo**: Contruir uma web-page onde apresentamos a staff da empresa de forma simples e bonita.
 - **Tecnologias Usadas**: `HTML`, `CSS`.
 - **Link de Acesso**: [click here](https://eufraniodiogo.github.io/my-team-page)
 - **Autor / Autores**: Eufránio Diogo
@@ -22,7 +22,7 @@
 - **Project Name**: My Team Page
 - **Date / Creation Time**: Start of pandemic.
 - **Why**: Necessity to push up my skills as front-end developer.
-- **Goals**: Get better my front-end skills.
+- **Goals**: Build a web-ppage where we present the company staff in simple and beatiful way.
 - **Used Tecs**: `HTML`, `CSS`.
 - **Access Link**: [click here](https://eufraniodiogo.github.io/my-team-page)
 - **Author(s)**: Eufránio Diogo
